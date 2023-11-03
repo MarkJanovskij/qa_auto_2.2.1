@@ -11,7 +11,7 @@ return x;
 function divideBalanceByAccounts(x, y) {
   x = x / y;
   return x;
-  console.log("x");
+  
 }
 
 function getRestAfterDivision(x, y) {
@@ -21,10 +21,10 @@ function getRestAfterDivision(x, y) {
 
 console.log(increaseBalance(3000, 700));
 console.log(decreaseBalance(3000, 700));
-console.log(divideBalanceByAccounts(3000, 2, 4000));
+console.log(divideBalanceByAccounts(3000, 2));
 console.log(getRestAfterDivision(7000, 3));
 // Second function "y" was missing to run a code
-
+//divideBalanceByAccounts remove  console.log("x");  and in console.log(divideBalanceByAccounts(3000, 2,4000)); remove 4000 
 function increaseBalance(x, y) {
   x += y;
   return x;
